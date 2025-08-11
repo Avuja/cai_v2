@@ -1,0 +1,21 @@
+{
+  "name": "cai_v2",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Baseline Express app deployed to Fly.io via GitHub Actions",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon --watch src src/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
